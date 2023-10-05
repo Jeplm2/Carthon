@@ -119,3 +119,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
+  col: {fileID: -3725976070609192008, guid: 458f6b1d9677cb7c2bdfa4f7a540ed86, type: 3}
+  movement: {fileID: 3369055250118037063, guid: 458f6b1d9677cb7c2bdfa4f7a540ed86, type: 3}

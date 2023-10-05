@@ -18,7 +18,6 @@ public class GameManager : MonoBehaviour
         if(gameHasEnded == false)
         {
             gameHasEnded = true;
-            Debug.Log("Game Over!");
             Invoke("Restart", restartDelay);
         }
     }
@@ -26,6 +25,5 @@ public class GameManager : MonoBehaviour
     void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        Debug.Log(SceneManager.GetActiveScene().name);
     }
 }

@@ -7,6 +7,7 @@ public class PlayerCollision : MonoBehaviour
     public AudioSource med;
     public AudioSource low;
     public AudioSource clank;
+
     public AudioSource drift;
 
     void OnCollisionEnter(Collision collisionInfo)
@@ -17,7 +18,7 @@ public class PlayerCollision : MonoBehaviour
             med.Pause();
             low.Play();
             clank.Play();
-            // drift.Play();
+            drift.Play();
             FindObjectOfType<GameManager>().EndGame();
         }
 
