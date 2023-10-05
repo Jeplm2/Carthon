@@ -287,7 +287,6 @@
 -r:"Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/home/pronoob/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/home/pronoob/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/TDG Italian Ice/Screenshot.cs"
 "Assets/scripts/FollowPlayer.cs"
 "Assets/scripts/GameManager.cs"
 "Assets/scripts/LevelComplete.cs"
@@ -298,6 +297,7 @@
 "Assets/scripts/controls.cs"
 "Assets/scripts/credits.cs"
 "Assets/scripts/endTrigger.cs"
+"Assets/vendor/TDG Italian Ice/Screenshot.cs"
 -langversion:9.0
 
 /deterministic

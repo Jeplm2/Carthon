@@ -16,10 +16,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -229,6 +227,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -270,7 +272,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21716}
     - Class: 114
-      Script: {instanceID: 240452}
+      Script: {instanceID: 22584}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -320,6 +322,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -361,7 +367,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21716}
     - Class: 114
-      Script: {instanceID: 240452}
+      Script: {instanceID: 22584}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -411,6 +417,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -452,7 +462,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21716}
     - Class: 114
-      Script: {instanceID: 240452}
+      Script: {instanceID: 22584}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -734,7 +744,7 @@ ScriptsOnlyBuild:
     className: VariablesAsset
   - hash:
       serializedVersion: 2
-      Hash: 3dbd954263ec1c104b7a4aa08f927a5e
+      Hash: 5737780b551b82e02a5434b9600ad984
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement
@@ -1232,7 +1242,7 @@ ScriptsOnlyBuild:
     className: UnityOnScrollRectValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: a4fb540bbe88cc0120a7a71d4022b2a7
+      Hash: 25f25edba05e9e9c1f2bfc8e28602f4a
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerCollision
@@ -1322,6 +1332,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 91ab25c911e28a32bad0d3c46f85b2f3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: controls
+  - hash:
+      serializedVersion: 2
       Hash: afe1800287c9574079eab3fea2622416
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1356,12 +1372,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 91ab25c911e28a32bad0d3c46f85b2f3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: controls
   platform: 20
   scenePathNames:
   - Assets/Scenes/Menu.unity
