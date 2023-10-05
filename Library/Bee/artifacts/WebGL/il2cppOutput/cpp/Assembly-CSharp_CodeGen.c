@@ -27,6 +27,7 @@ extern void PlayerCollision__ctor_m2B517E2A67CB6CD0106F5C8D78F229F2CBEAE1B9 (voi
 extern void PlayerMovement_FixedUpdate_m05F06EBAEB85F1B860ED042B83AD54F61DC53EFE (void);
 extern void PlayerMovement_moveRight_m672A6EFE24AA327EE20E27ED2A988CEECEEDD425 (void);
 extern void PlayerMovement_moveLeft_m4E3CD5660776957C98CF6123B2E12F7B797DC7FF (void);
+extern void PlayerMovement_smoothRotate_m6B7857B3E67D2306227E3A47FED7AC677689C0AC (void);
 extern void PlayerMovement__ctor_mB37559C5B0638161878D20E00B7C672FC38BBBAA (void);
 extern void Score_Update_m8F6F1768AC5316A30F5A79813D72B20EC6796E5A (void);
 extern void Score__ctor_mDEDBA72E1F38C2F7CFF4E6C6556103C5D62C1670 (void);
@@ -43,7 +44,7 @@ extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
 extern void Screenshot_Update_mE1B14E46A7FF7BCFE162FCDCD61DE87220362EE6 (void);
 extern void Screenshot__ctor_m0305CC54BF13DBEB4404AE8EC39BE41F295BEDC2 (void);
-static Il2CppMethodPointer s_methodPointers[31] = 
+static Il2CppMethodPointer s_methodPointers[32] = 
 {
 	FollowPlayer_Update_m6CCD681461C8062489A435B45285AEE84F3B3DB6,
 	FollowPlayer__ctor_mFEF642F6D296A2FBA30A01B637B6BD8DD2446114,
@@ -60,6 +61,7 @@ static Il2CppMethodPointer s_methodPointers[31] =
 	PlayerMovement_FixedUpdate_m05F06EBAEB85F1B860ED042B83AD54F61DC53EFE,
 	PlayerMovement_moveRight_m672A6EFE24AA327EE20E27ED2A988CEECEEDD425,
 	PlayerMovement_moveLeft_m4E3CD5660776957C98CF6123B2E12F7B797DC7FF,
+	PlayerMovement_smoothRotate_m6B7857B3E67D2306227E3A47FED7AC677689C0AC,
 	PlayerMovement__ctor_mB37559C5B0638161878D20E00B7C672FC38BBBAA,
 	Score_Update_m8F6F1768AC5316A30F5A79813D72B20EC6796E5A,
 	Score__ctor_mDEDBA72E1F38C2F7CFF4E6C6556103C5D62C1670,
@@ -77,7 +79,7 @@ static Il2CppMethodPointer s_methodPointers[31] =
 	Screenshot_Update_mE1B14E46A7FF7BCFE162FCDCD61DE87220362EE6,
 	Screenshot__ctor_m0305CC54BF13DBEB4404AE8EC39BE41F295BEDC2,
 };
-static const int32_t s_InvokerIndices[31] = 
+static const int32_t s_InvokerIndices[32] = 
 {
 	4191,
 	4191,
@@ -94,6 +96,7 @@ static const int32_t s_InvokerIndices[31] =
 	4191,
 	4191,
 	4191,
+	3416,
 	4191,
 	4191,
 	4191,
@@ -106,7 +109,7 @@ static const int32_t s_InvokerIndices[31] =
 	4191,
 	4191,
 	4191,
-	6099,
+	6101,
 	4191,
 	4191,
 	4191,
@@ -115,7 +118,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	31,
+	32,
 	s_methodPointers,
 	0,
 	NULL,
