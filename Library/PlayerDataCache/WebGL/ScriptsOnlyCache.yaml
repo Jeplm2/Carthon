@@ -744,7 +744,7 @@ ScriptsOnlyBuild:
     className: VariablesAsset
   - hash:
       serializedVersion: 2
-      Hash: 5737780b551b82e02a5434b9600ad984
+      Hash: ee2bb55d9147de9fd50e7282da850f67
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement
@@ -822,7 +822,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 31d64e959c9ad421048577290dfb2f54
+      Hash: 9191ed3a8e09e2cc33f35d1cd4559232
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: endTrigger
